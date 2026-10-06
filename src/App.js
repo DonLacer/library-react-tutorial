@@ -1,4 +1,8 @@
 import './App.css';
+import Footer from './components/Footer';
+import Explore from './components/Explore';
+import Discounted from './components/Discounted';
+import Featured from './components/Featured';
 import Highlights from './components/Highlights';
 import Landing from './components/Landing';
 import Nav from './components/Nav';
@@ -10,6 +14,10 @@ function App() {
       <Nav />
       <Landing />
       <Highlights />
+      <Featured />
+      <Discounted />
+      <Explore />
+      <Footer />
     </div>
   );
 }
