@@ -1,5 +1,5 @@
-import React from 'react';
-import Logo from "../assets/Library.svg"
+import React from "react";
+import Logo from "../assets/Library.svg";
 
 const Footer = () => {
   return (
@@ -17,13 +17,11 @@ const Footer = () => {
             <a href="/books" className="footer__link">Books</a>
             <a href="/cart" className="footer__link">Cart</a>
           </div>
-          <div className="footer__copyright">
-            Copyright &copy; 2026 Library
-          </div>
+          <div className="footer__copyright">Copyright &copy; 2026 Library</div>
         </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
